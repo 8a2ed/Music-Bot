@@ -11,7 +11,7 @@ module.exports = {
 
             message.channel.send({
                 embed: {
-                    color: 'ORANGE',
+                    color: 'RANDOM',
                     author: { name: 'Help pannel' },
                     fields: [
                         { name: 'Bot', value: infos },
@@ -19,7 +19,7 @@ module.exports = {
                         { name: 'Filters', value: client.filters.map((x) => '`' + x + '`').join(', ') },
                     ],
                     timestamp: new Date(),
-                    description: `To use filters, ${client.config.discord.prefix}filter (the filter). Example : ${client.config.discord.prefix}filter 8D.`,
+                    description: `To see more info about command, ${client.config.discord.prefix}help (command). Example : ${client.config.discord.prefix}help ping.`,
                 },
             });
         } else {
