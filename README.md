@@ -1,6 +1,6 @@
 # Music-Bot
 
-### ! ~ You are not allowed to post the code with your rights ~ !
+### ! ~ You are not allowed to publish the codes with your rights ~ !
 
 - Copyrights: 
 -   [8a2ed](https://github.com/8a2ed)
