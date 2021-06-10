@@ -8,7 +8,7 @@ module.exports = {
     },
 
     discord: {
-        token: 'NzI4NzQzMjM5OTgwNDE3MTQ3.Xv-1Bw.lI8CVsKkynwboAuK9mSXE1_8OEM',
+        token: process.env.token,
         prefix: '-',
         activity: '-help',
     },
