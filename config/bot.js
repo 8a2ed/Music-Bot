@@ -8,9 +8,9 @@ module.exports = {
     },
 
     discord: {
-        token: process.env.token,
-        prefix: '-',
-        activity: '-help',
+        token: 'Token',
+        prefix: 'Prefix',
+        activity: 'Music bot by 8a2ed',
     },
 
     filters: ['8D', 'gate', 'haas', 'phaser', 'treble', 'tremolo', 'vibrato', 'reverse', 'karaoke', 'flanger', 'mcompand', 'pulsator', 'subboost', 'bassboost', 'vaporwave', 'nightcore', 'normalizer', 'surrounding'],
